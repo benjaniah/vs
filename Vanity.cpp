@@ -801,33 +801,36 @@ void VanitySearch::output(string addr,string pAddr,string pAddrHex) {
   if (outputFile.length() > 0) {
     f = fopen(outputFile.c_str(), "a");
     if (f == NULL) {
-      fprintf(stderr,"Cannot open %s for writing\n", outputFile.c_str());
+      printf("Cannot open %s for writing\n", outputFile.c_str());
       f = stdout;
     } else {
       needToClose = true;
     }
   }
 
-  fprintf(stderr, "\nPublic Addr: %s\n", addr.c_str());
+  if(!needToClose)
+    printf("\n");
+
+  fprintf(f, "PubAddress: %s\n", addr.c_str());
 
   if (startPubKeySpecified) {
 
-    fprintf(stderr, "PartialPriv: %s\n", pAddr.c_str());
+    fprintf(f, "PartialPriv: %s\n", pAddr.c_str());
 
   } else {
 
     switch (searchType) {
     case P2PKH:
-      fprintf(stderr, "Priv (WIF): p2pkh:%s\n", pAddr.c_str());
+      fprintf(f, "Priv (WIF): p2pkh:%s\n", pAddr.c_str());
       break;
     case P2SH:
-      fprintf(stderr, "Priv (WIF): p2wpkh-p2sh:%s\n", pAddr.c_str());
+      fprintf(f, "Priv (WIF): p2wpkh-p2sh:%s\n", pAddr.c_str());
       break;
     case BECH32:
-      fprintf(stderr, "Priv (WIF): p2wpkh:%s\n", pAddr.c_str());
+      fprintf(f, "Priv (WIF): p2wpkh:%s\n", pAddr.c_str());
       break;
     }
-    fprintf(stderr, "Priv (HEX): 0x%064s\n", pAddrHex.c_str());
+    fprintf(f, "Priv (HEX): 0x%s\n", pAddrHex.c_str());
 
   }
 
