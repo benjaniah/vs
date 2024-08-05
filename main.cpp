@@ -381,26 +381,27 @@ void outputAdd(string outputFile, int addrType, string addr, string pAddr, strin
     }
   }
 
-  fprintf(stderr, "\nPublic Addr: %s\n", addr.c_str());
+  fprintf(f, "\nPub Addr: %s\n", addr.c_str());
 
 
   switch (addrType) {
   case P2PKH:
-    fprintf(stderr, "Priv (WIF): p2pkh:%s\n", pAddr.c_str());
+    fprintf(f, "Priv (WIF): p2pkh:%s\n", pAddr.c_str());
     break;
   case P2SH:
-    fprintf(stderr, "Priv (WIF): p2wpkh-p2sh:%s\n", pAddr.c_str());
+    fprintf(f, "Priv (WIF): p2wpkh-p2sh:%s\n", pAddr.c_str());
     break;
   case BECH32:
-    fprintf(stderr, "Priv (WIF): p2wpkh:%s\n", pAddr.c_str());
+    fprintf(f, "Priv (WIF): p2wpkh:%s\n", pAddr.c_str());
     break;
   }
-  fprintf(stderr, "Priv (HEX): 0x%064s\n", pAddrHex.c_str());
+  fprintf(f, "Priv (HEX): 0x%s\n", pAddrHex.c_str());
 
   if (needToClose)
     fclose(f);
 
 }
+
 
 // ------------------------------------------------------------------------------------------
 #define CHECK_ADDR()                                           \
