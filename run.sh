@@ -24,14 +24,7 @@ run_command() {
 # Task 1
 
 
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -stop -o 1RANSOMWARE.txt --continue x1 --keyspace 50337620000000000:+100000000000 1BY8GQbn | tee -a loggit" 1
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -stop -o 1RANSOMWARE.txt --continue x2 --keyspace 50737620000000000:+100000000000 1BY8GQbn | tee -a loggit" 2
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -stop -o 1RANSOMWARE.txt --continue x3 --keyspace 50B37620000000000:+100000000000 1BY8GQbn | tee -a loggit" 3
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -stop -o 1RANSOMWARE.txt --continue x4 --keyspace 50F37620000000000:+100000000000 1BY8GQbn | tee -a loggit" 4
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -stop -o 1RANSOMWARE.txt --continue x5 --keyspace 51337620000000000:+100000000000 1BY8GQbn | tee -a loggit" 5
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -stop -o 1RANSOMWARE.txt --continue x6 --keyspace 51737620000000000:+100000000000 1BY8GQbn | tee -a loggit" 6
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -stop -o 1RANSOMWARE.txt --continue x7 --keyspace 51B37620000000000:+100000000000 1BY8GQbn | tee -a loggit" 7
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -stop -o 1RANSOMWARE.txt --continue x8 --keyspace 51F37620000000000:+100000000000 1BY8GQbn | tee -a loggit" 8
+
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -stop -o 1RANSOMWARE.txt --continue x9 --keyspace 52337620000000000:+100000000000 1BY8GQbn | tee -a loggit" 9
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -stop -o 1RANSOMWARE.txt --continue x10 --keyspace 52737620000000000:+100000000000 1BY8GQbn | tee -a loggit" 10
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -stop -o 1RANSOMWARE.txt --continue x11 --keyspace 52B37620000000000:+100000000000 1BY8GQbn | tee -a loggit" 11
