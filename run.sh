@@ -1,7 +1,7 @@
-#idunno 262144
+#79705 262144
 #!/bin/bash
 
-LOGFILE="progress_shortrun51.log"
+LOGFILE="progress_run52.log"
 
 # Function to run a command and log its completion
 run_command() {
@@ -24,515 +24,259 @@ run_command() {
 # Task 1
 
 
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x1 --keyspace 50045E30000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 1
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x2 --keyspace 500C5C60000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 2
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x3 --keyspace 50145A90000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 3
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x4 --keyspace 501C58C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 4
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x5 --keyspace 502456F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 5
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x6 --keyspace 502C5520000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 6
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x7 --keyspace 50345350000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 7
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x8 --keyspace 503C5180000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 8
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x9 --keyspace 50444FB0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 9
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x10 --keyspace 504C4DE0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 10
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x11 --keyspace 50544C10000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 11
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x12 --keyspace 505C4A40000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 12
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x13 --keyspace 50644870000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 13
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x14 --keyspace 506C46A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 14
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x15 --keyspace 507444D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 15
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x16 --keyspace 507C4300000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 16
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x17 --keyspace 50844130000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 17
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x18 --keyspace 508C3F60000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 18
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x19 --keyspace 50943D90000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 19
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x20 --keyspace 509C3BC0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 20
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x21 --keyspace 50A439F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 21
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x22 --keyspace 50AC3820000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 22
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x23 --keyspace 50B43650000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 23
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x24 --keyspace 50BC3480000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 24
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x25 --keyspace 50C432B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 25
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x26 --keyspace 50CC30E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 26
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x27 --keyspace 50D42F10000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 27
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x28 --keyspace 50DC2D40000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 28
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x29 --keyspace 50E42B70000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 29
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x30 --keyspace 50EC29A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 30
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x31 --keyspace 50F427D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 31
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x32 --keyspace 50FC2600000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 32
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x33 --keyspace 51042430000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 33
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x34 --keyspace 510C2260000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 34
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x35 --keyspace 51142090000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 35
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x36 --keyspace 511C1EC0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 36
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x37 --keyspace 51241CF0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 37
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x38 --keyspace 512C1B20000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 38
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x39 --keyspace 51341950000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 39
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x40 --keyspace 513C1780000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 40
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x41 --keyspace 514415B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 41
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x42 --keyspace 514C13E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 42
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x43 --keyspace 51541210000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 43
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x44 --keyspace 515C1040000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 44
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x45 --keyspace 51640E70000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 45
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x46 --keyspace 516C0CA0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 46
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x47 --keyspace 51740AD0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 47
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x48 --keyspace 517C0900000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 48
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x49 --keyspace 51840730000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 49
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x50 --keyspace 518C0560000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 50
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x51 --keyspace 51940390000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 51
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x52 --keyspace 519C01C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 52
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x53 --keyspace 51A3FFF0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 53
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x54 --keyspace 51ABFE20000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 54
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x55 --keyspace 51B3FC50000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 55
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x56 --keyspace 51BBFA80000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 56
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x57 --keyspace 51C3F8B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 57
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x58 --keyspace 51CBF6E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 58
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x59 --keyspace 51D3F510000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 59
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x60 --keyspace 51DBF340000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 60
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x61 --keyspace 51E3F170000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 61
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x62 --keyspace 51EBEFA0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 62
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x63 --keyspace 51F3EDD0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 63
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x64 --keyspace 51FBEC00000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 64
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x65 --keyspace 5203EA30000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 65
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x66 --keyspace 520BE860000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 66
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x67 --keyspace 5213E690000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 67
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x68 --keyspace 521BE4C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 68
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x69 --keyspace 5223E2F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 69
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x70 --keyspace 522BE120000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 70
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x71 --keyspace 5233DF50000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 71
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x72 --keyspace 523BDD80000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 72
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x73 --keyspace 5243DBB0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 73
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x74 --keyspace 524BD9E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 74
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x75 --keyspace 5253D810000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 75
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x76 --keyspace 525BD640000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 76
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x77 --keyspace 5263D470000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 77
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x78 --keyspace 526BD2A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 78
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x79 --keyspace 5273D0D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 79
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x80 --keyspace 527BCF00000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 80
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x81 --keyspace 5283CD30000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 81
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x82 --keyspace 528BCB60000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 82
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x83 --keyspace 5293C990000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 83
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x84 --keyspace 529BC7C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 84
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x85 --keyspace 52A3C5F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 85
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x86 --keyspace 52ABC420000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 86
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x87 --keyspace 52B3C250000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 87
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x88 --keyspace 52BBC080000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 88
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x89 --keyspace 52C3BEB0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 89
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x90 --keyspace 52CBBCE0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 90
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x91 --keyspace 52D3BB10000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 91
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x92 --keyspace 52DBB940000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 92
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x93 --keyspace 52E3B770000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 93
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x94 --keyspace 52EBB5A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 94
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x95 --keyspace 52F3B3D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 95
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x96 --keyspace 52FBB200000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 96
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x97 --keyspace 5303B030000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 97
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x98 --keyspace 530BAE60000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 98
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x99 --keyspace 5313AC90000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 99
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x100 --keyspace 531BAAC0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 100
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x101 --keyspace 5323A8F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 101
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x102 --keyspace 532BA720000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 102
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x103 --keyspace 5333A550000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 103
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x104 --keyspace 533BA380000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 104
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x105 --keyspace 5343A1B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 105
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x106 --keyspace 534B9FE0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 106
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x107 --keyspace 53539E10000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 107
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x108 --keyspace 535B9C40000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 108
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x109 --keyspace 53639A70000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 109
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x110 --keyspace 536B98A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 110
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x111 --keyspace 537396D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 111
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x112 --keyspace 537B9500000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 112
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x113 --keyspace 53839330000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 113
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x114 --keyspace 538B9160000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 114
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x115 --keyspace 53938F90000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 115
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x116 --keyspace 539B8DC0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 116
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x117 --keyspace 53A38BF0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 117
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x118 --keyspace 53AB8A20000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 118
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x119 --keyspace 53B38850000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 119
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x120 --keyspace 53BB8680000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 120
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x121 --keyspace 53C384B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 121
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x122 --keyspace 53CB82E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 122
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x123 --keyspace 53D38110000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 123
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x124 --keyspace 53DB7F40000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 124
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x125 --keyspace 53E37D70000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 125
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x126 --keyspace 53EB7BA0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 126
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x127 --keyspace 53F379D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 127
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x128 --keyspace 53FB7800000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 128
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x129 --keyspace 54037630000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 129
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x130 --keyspace 540B7460000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 130
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x131 --keyspace 54137290000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 131
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x132 --keyspace 541B70C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 132
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x133 --keyspace 54236EF0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 133
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x134 --keyspace 542B6D20000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 134
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x135 --keyspace 54336B50000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 135
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x136 --keyspace 543B6980000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 136
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x137 --keyspace 544367B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 137
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x138 --keyspace 544B65E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 138
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x139 --keyspace 54536410000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 139
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x140 --keyspace 545B6240000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 140
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x141 --keyspace 54636070000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 141
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x142 --keyspace 546B5EA0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 142
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x143 --keyspace 54735CD0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 143
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x144 --keyspace 547B5B00000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 144
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x145 --keyspace 54835930000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 145
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x146 --keyspace 548B5760000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 146
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x147 --keyspace 54935590000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 147
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x148 --keyspace 549B53C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 148
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x149 --keyspace 54A351F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 149
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x150 --keyspace 54AB5020000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 150
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x151 --keyspace 54B34E50000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 151
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x152 --keyspace 54BB4C80000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 152
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x153 --keyspace 54C34AB0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 153
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x154 --keyspace 54CB48E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 154
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x155 --keyspace 54D34710000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 155
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x156 --keyspace 54DB4540000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 156
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x157 --keyspace 54E34370000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 157
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x158 --keyspace 54EB41A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 158
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x159 --keyspace 54F33FD0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 159
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x160 --keyspace 54FB3E00000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 160
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x161 --keyspace 55033C30000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 161
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x162 --keyspace 550B3A60000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 162
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x163 --keyspace 55133890000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 163
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x164 --keyspace 551B36C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 164
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x165 --keyspace 552334F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 165
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x166 --keyspace 552B3320000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 166
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x167 --keyspace 55333150000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 167
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x168 --keyspace 553B2F80000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 168
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x169 --keyspace 55432DB0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 169
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x170 --keyspace 554B2BE0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 170
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x171 --keyspace 55532A10000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 171
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x172 --keyspace 555B2840000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 172
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x173 --keyspace 55632670000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 173
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x174 --keyspace 556B24A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 174
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x175 --keyspace 557322D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 175
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x176 --keyspace 557B2100000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 176
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x177 --keyspace 55831F30000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 177
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x178 --keyspace 558B1D60000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 178
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x179 --keyspace 55931B90000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 179
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x180 --keyspace 559B19C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 180
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x181 --keyspace 55A317F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 181
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x182 --keyspace 55AB1620000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 182
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x183 --keyspace 55B31450000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 183
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x184 --keyspace 55BB1280000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 184
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x185 --keyspace 55C310B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 185
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x186 --keyspace 55CB0EE0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 186
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x187 --keyspace 55D30D10000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 187
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x188 --keyspace 55DB0B40000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 188
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x189 --keyspace 55E30970000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 189
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x190 --keyspace 55EB07A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 190
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x191 --keyspace 55F305D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 191
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x192 --keyspace 55FB0400000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 192
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x193 --keyspace 56030230000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 193
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x194 --keyspace 560B0060000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 194
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x195 --keyspace 5612FE90000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 195
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x196 --keyspace 561AFCC0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 196
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x197 --keyspace 5622FAF0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 197
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x198 --keyspace 562AF920000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 198
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x199 --keyspace 5632F750000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 199
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x200 --keyspace 563AF580000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 200
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x201 --keyspace 5642F3B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 201
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x202 --keyspace 564AF1E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 202
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x203 --keyspace 5652F010000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 203
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x204 --keyspace 565AEE40000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 204
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x205 --keyspace 5662EC70000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 205
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x206 --keyspace 566AEAA0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 206
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x207 --keyspace 5672E8D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 207
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x208 --keyspace 567AE700000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 208
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x209 --keyspace 5682E530000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 209
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x210 --keyspace 568AE360000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 210
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x211 --keyspace 5692E190000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 211
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x212 --keyspace 569ADFC0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 212
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x213 --keyspace 56A2DDF0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 213
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x214 --keyspace 56AADC20000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 214
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x215 --keyspace 56B2DA50000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 215
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x216 --keyspace 56BAD880000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 216
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x217 --keyspace 56C2D6B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 217
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x218 --keyspace 56CAD4E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 218
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x219 --keyspace 56D2D310000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 219
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x220 --keyspace 56DAD140000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 220
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x221 --keyspace 56E2CF70000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 221
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x222 --keyspace 56EACDA0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 222
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x223 --keyspace 56F2CBD0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 223
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x224 --keyspace 56FACA00000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 224
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x225 --keyspace 5702C830000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 225
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x226 --keyspace 570AC660000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 226
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x227 --keyspace 5712C490000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 227
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x228 --keyspace 571AC2C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 228
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x229 --keyspace 5722C0F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 229
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x230 --keyspace 572ABF20000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 230
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x231 --keyspace 5732BD50000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 231
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x232 --keyspace 573ABB80000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 232
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x233 --keyspace 5742B9B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 233
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x234 --keyspace 574AB7E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 234
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x235 --keyspace 5752B610000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 235
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x236 --keyspace 575AB440000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 236
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x237 --keyspace 5762B270000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 237
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x238 --keyspace 576AB0A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 238
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x239 --keyspace 5772AED0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 239
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x240 --keyspace 577AAD00000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 240
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x241 --keyspace 5782AB30000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 241
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x242 --keyspace 578AA960000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 242
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x243 --keyspace 5792A790000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 243
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x244 --keyspace 579AA5C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 244
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x245 --keyspace 57A2A3F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 245
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x246 --keyspace 57AAA220000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 246
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x247 --keyspace 57B2A050000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 247
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x248 --keyspace 57BA9E80000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 248
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x249 --keyspace 57C29CB0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 249
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x250 --keyspace 57CA9AE0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 250
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x251 --keyspace 57D29910000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 251
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x252 --keyspace 57DA9740000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 252
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x253 --keyspace 57E29570000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 253
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x254 --keyspace 57EA93A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 254
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x255 --keyspace 57F291D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 255
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x256 --keyspace 57FA9000000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 256
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x257 --keyspace 58028E30000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 257
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x258 --keyspace 580A8C60000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 258
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x259 --keyspace 58128A90000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 259
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x260 --keyspace 581A88C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 260
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x261 --keyspace 582286F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 261
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x262 --keyspace 582A8520000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 262
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x263 --keyspace 58328350000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 263
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x264 --keyspace 583A8180000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 264
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x265 --keyspace 58427FB0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 265
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x266 --keyspace 584A7DE0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 266
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x267 --keyspace 58527C10000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 267
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x268 --keyspace 585A7A40000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 268
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x269 --keyspace 58627870000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 269
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x270 --keyspace 586A76A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 270
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x271 --keyspace 587274D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 271
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x272 --keyspace 587A7300000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 272
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x273 --keyspace 58827130000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 273
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x274 --keyspace 588A6F60000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 274
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x275 --keyspace 58926D90000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 275
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x276 --keyspace 589A6BC0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 276
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x277 --keyspace 58A269F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 277
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x278 --keyspace 58AA6820000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 278
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x279 --keyspace 58B26650000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 279
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x280 --keyspace 58BA6480000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 280
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x281 --keyspace 58C262B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 281
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x282 --keyspace 58CA60E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 282
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x283 --keyspace 58D25F10000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 283
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x284 --keyspace 58DA5D40000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 284
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x285 --keyspace 58E25B70000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 285
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x286 --keyspace 58EA59A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 286
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x287 --keyspace 58F257D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 287
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x288 --keyspace 58FA5600000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 288
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x289 --keyspace 59025430000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 289
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x290 --keyspace 590A5260000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 290
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x291 --keyspace 59125090000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 291
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x292 --keyspace 591A4EC0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 292
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x293 --keyspace 59224CF0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 293
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x294 --keyspace 592A4B20000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 294
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x295 --keyspace 59324950000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 295
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x296 --keyspace 593A4780000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 296
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x297 --keyspace 594245B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 297
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x298 --keyspace 594A43E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 298
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x299 --keyspace 59524210000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 299
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x300 --keyspace 595A4040000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 300
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x301 --keyspace 59623E70000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 301
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x302 --keyspace 596A3CA0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 302
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x303 --keyspace 59723AD0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 303
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x304 --keyspace 597A3900000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 304
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x305 --keyspace 59823730000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 305
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x306 --keyspace 598A3560000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 306
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x307 --keyspace 59923390000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 307
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x308 --keyspace 599A31C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 308
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x309 --keyspace 59A22FF0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 309
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x310 --keyspace 59AA2E20000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 310
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x311 --keyspace 59B22C50000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 311
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x312 --keyspace 59BA2A80000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 312
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x313 --keyspace 59C228B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 313
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x314 --keyspace 59CA26E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 314
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x315 --keyspace 59D22510000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 315
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x316 --keyspace 59DA2340000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 316
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x317 --keyspace 59E22170000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 317
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x318 --keyspace 59EA1FA0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 318
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x319 --keyspace 59F21DD0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 319
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x320 --keyspace 59FA1C00000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 320
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x321 --keyspace 5A021A30000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 321
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x322 --keyspace 5A0A1860000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 322
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x323 --keyspace 5A121690000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 323
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x324 --keyspace 5A1A14C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 324
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x325 --keyspace 5A2212F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 325
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x326 --keyspace 5A2A1120000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 326
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x327 --keyspace 5A320F50000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 327
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x328 --keyspace 5A3A0D80000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 328
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x329 --keyspace 5A420BB0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 329
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x330 --keyspace 5A4A09E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 330
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x331 --keyspace 5A520810000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 331
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x332 --keyspace 5A5A0640000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 332
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x333 --keyspace 5A620470000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 333
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x334 --keyspace 5A6A02A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 334
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x335 --keyspace 5A7200D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 335
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x336 --keyspace 5A79FF00000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 336
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x337 --keyspace 5A81FD30000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 337
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x338 --keyspace 5A89FB60000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 338
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x339 --keyspace 5A91F990000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 339
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x340 --keyspace 5A99F7C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 340
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x341 --keyspace 5AA1F5F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 341
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x342 --keyspace 5AA9F420000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 342
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x343 --keyspace 5AB1F250000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 343
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x344 --keyspace 5AB9F080000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 344
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x345 --keyspace 5AC1EEB0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 345
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x346 --keyspace 5AC9ECE0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 346
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x347 --keyspace 5AD1EB10000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 347
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x348 --keyspace 5AD9E940000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 348
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x349 --keyspace 5AE1E770000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 349
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x350 --keyspace 5AE9E5A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 350
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x351 --keyspace 5AF1E3D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 351
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x352 --keyspace 5AF9E200000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 352
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x353 --keyspace 5B01E030000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 353
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x354 --keyspace 5B09DE60000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 354
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x355 --keyspace 5B11DC90000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 355
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x356 --keyspace 5B19DAC0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 356
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x357 --keyspace 5B21D8F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 357
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x358 --keyspace 5B29D720000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 358
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x359 --keyspace 5B31D550000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 359
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x360 --keyspace 5B39D380000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 360
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x361 --keyspace 5B41D1B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 361
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x362 --keyspace 5B49CFE0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 362
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x363 --keyspace 5B51CE10000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 363
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x364 --keyspace 5B59CC40000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 364
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x365 --keyspace 5B61CA70000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 365
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x366 --keyspace 5B69C8A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 366
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x367 --keyspace 5B71C6D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 367
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x368 --keyspace 5B79C500000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 368
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x369 --keyspace 5B81C330000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 369
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x370 --keyspace 5B89C160000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 370
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x371 --keyspace 5B91BF90000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 371
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x372 --keyspace 5B99BDC0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 372
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x373 --keyspace 5BA1BBF0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 373
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x374 --keyspace 5BA9BA20000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 374
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x375 --keyspace 5BB1B850000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 375
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x376 --keyspace 5BB9B680000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 376
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x377 --keyspace 5BC1B4B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 377
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x378 --keyspace 5BC9B2E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 378
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x379 --keyspace 5BD1B110000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 379
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x380 --keyspace 5BD9AF40000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 380
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x381 --keyspace 5BE1AD70000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 381
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x382 --keyspace 5BE9ABA0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 382
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x383 --keyspace 5BF1A9D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 383
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x384 --keyspace 5BF9A800000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 384
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x385 --keyspace 5C01A630000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 385
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x386 --keyspace 5C09A460000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 386
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x387 --keyspace 5C11A290000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 387
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x388 --keyspace 5C19A0C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 388
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x389 --keyspace 5C219EF0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 389
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x390 --keyspace 5C299D20000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 390
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x391 --keyspace 5C319B50000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 391
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x392 --keyspace 5C399980000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 392
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x393 --keyspace 5C4197B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 393
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x394 --keyspace 5C4995E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 394
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x395 --keyspace 5C519410000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 395
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x396 --keyspace 5C599240000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 396
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x397 --keyspace 5C619070000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 397
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x398 --keyspace 5C698EA0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 398
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x399 --keyspace 5C718CD0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 399
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x400 --keyspace 5C798B00000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 400
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x401 --keyspace 5C818930000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 401
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x402 --keyspace 5C898760000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 402
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x403 --keyspace 5C918590000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 403
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x404 --keyspace 5C9983C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 404
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x405 --keyspace 5CA181F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 405
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x406 --keyspace 5CA98020000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 406
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x407 --keyspace 5CB17E50000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 407
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x408 --keyspace 5CB97C80000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 408
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x409 --keyspace 5CC17AB0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 409
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x410 --keyspace 5CC978E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 410
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x411 --keyspace 5CD17710000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 411
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x412 --keyspace 5CD97540000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 412
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x413 --keyspace 5CE17370000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 413
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x414 --keyspace 5CE971A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 414
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x415 --keyspace 5CF16FD0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 415
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x416 --keyspace 5CF96E00000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 416
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x417 --keyspace 5D016C30000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 417
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x418 --keyspace 5D096A60000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 418
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x419 --keyspace 5D116890000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 419
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x420 --keyspace 5D1966C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 420
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x421 --keyspace 5D2164F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 421
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x422 --keyspace 5D296320000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 422
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x423 --keyspace 5D316150000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 423
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x424 --keyspace 5D395F80000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 424
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x425 --keyspace 5D415DB0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 425
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x426 --keyspace 5D495BE0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 426
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x427 --keyspace 5D515A10000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 427
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x428 --keyspace 5D595840000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 428
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x429 --keyspace 5D615670000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 429
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x430 --keyspace 5D6954A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 430
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x431 --keyspace 5D7152D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 431
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x432 --keyspace 5D795100000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 432
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x433 --keyspace 5D814F30000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 433
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x434 --keyspace 5D894D60000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 434
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x435 --keyspace 5D914B90000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 435
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x436 --keyspace 5D9949C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 436
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x437 --keyspace 5DA147F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 437
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x438 --keyspace 5DA94620000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 438
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x439 --keyspace 5DB14450000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 439
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x440 --keyspace 5DB94280000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 440
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x441 --keyspace 5DC140B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 441
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x442 --keyspace 5DC93EE0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 442
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x443 --keyspace 5DD13D10000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 443
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x444 --keyspace 5DD93B40000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 444
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x445 --keyspace 5DE13970000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 445
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x446 --keyspace 5DE937A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 446
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x447 --keyspace 5DF135D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 447
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x448 --keyspace 5DF93400000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 448
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x449 --keyspace 5E013230000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 449
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x450 --keyspace 5E093060000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 450
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x451 --keyspace 5E112E90000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 451
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x452 --keyspace 5E192CC0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 452
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x453 --keyspace 5E212AF0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 453
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x454 --keyspace 5E292920000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 454
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x455 --keyspace 5E312750000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 455
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x456 --keyspace 5E392580000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 456
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x457 --keyspace 5E4123B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 457
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x458 --keyspace 5E4921E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 458
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x459 --keyspace 5E512010000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 459
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x460 --keyspace 5E591E40000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 460
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x461 --keyspace 5E611C70000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 461
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x462 --keyspace 5E691AA0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 462
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x463 --keyspace 5E7118D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 463
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x464 --keyspace 5E791700000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 464
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x465 --keyspace 5E811530000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 465
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x466 --keyspace 5E891360000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 466
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x467 --keyspace 5E911190000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 467
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x468 --keyspace 5E990FC0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 468
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x469 --keyspace 5EA10DF0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 469
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x470 --keyspace 5EA90C20000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 470
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x471 --keyspace 5EB10A50000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 471
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x472 --keyspace 5EB90880000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 472
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x473 --keyspace 5EC106B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 473
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x474 --keyspace 5EC904E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 474
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x475 --keyspace 5ED10310000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 475
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x476 --keyspace 5ED90140000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 476
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x477 --keyspace 5EE0FF70000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 477
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x478 --keyspace 5EE8FDA0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 478
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x479 --keyspace 5EF0FBD0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 479
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x480 --keyspace 5EF8FA00000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 480
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x481 --keyspace 5F00F830000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 481
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x482 --keyspace 5F08F660000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 482
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x483 --keyspace 5F10F490000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 483
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x484 --keyspace 5F18F2C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 484
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x485 --keyspace 5F20F0F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 485
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x486 --keyspace 5F28EF20000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 486
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x487 --keyspace 5F30ED50000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 487
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x488 --keyspace 5F38EB80000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 488
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x489 --keyspace 5F40E9B0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 489
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x490 --keyspace 5F48E7E0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 490
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x491 --keyspace 5F50E610000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 491
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x492 --keyspace 5F58E440000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 492
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x493 --keyspace 5F60E270000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 493
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x494 --keyspace 5F68E0A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 494
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x495 --keyspace 5F70DED0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 495
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x496 --keyspace 5F78DD00000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 496
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x497 --keyspace 5F80DB30000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 497
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x498 --keyspace 5F88D960000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 498
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x499 --keyspace 5F90D790000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 499
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x500 --keyspace 5F98D5C0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 500
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x501 --keyspace 5FA0D3F0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 501
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x502 --keyspace 5FA8D220000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 502
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x503 --keyspace 5FB0D050000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 503
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x504 --keyspace 5FB8CE80000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 504
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x505 --keyspace 5FC0CCB0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 505
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x506 --keyspace 5FC8CAE0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 506
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x507 --keyspace 5FD0C910000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 507
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x508 --keyspace 5FD8C740000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 508
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x509 --keyspace 5FE0C570000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 509
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x510 --keyspace 5FE8C3A0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 510
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x511 --keyspace 5FF0C1D0000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 511
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -stop -o 1LOCKBIT.txt --continue x512 --keyspace 5FF8C000000000000:+10000000000 1BY8GQbn | tee -a loggitall.txt" 512
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx1 --keyspace 40137590000000000:+10000000000 1BY8GQbn" 1
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx2 --keyspace 40537590000000000:+10000000000 1BY8GQbn" 2
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx3 --keyspace 40937590000000000:+10000000000 1BY8GQbn" 3
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx4 --keyspace 40D37590000000000:+10000000000 1BY8GQbn" 4
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx5 --keyspace 41137590000000000:+10000000000 1BY8GQbn" 5
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx6 --keyspace 41537590000000000:+10000000000 1BY8GQbn" 6
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx7 --keyspace 41937590000000000:+10000000000 1BY8GQbn" 7
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx8 --keyspace 41D37590000000000:+10000000000 1BY8GQbn" 8
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx9 --keyspace 42137590000000000:+10000000000 1BY8GQbn" 9
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx10 --keyspace 42537590000000000:+10000000000 1BY8GQbn" 10
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx11 --keyspace 42937590000000000:+10000000000 1BY8GQbn" 11
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx12 --keyspace 42D37590000000000:+10000000000 1BY8GQbn" 12
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx13 --keyspace 43137590000000000:+10000000000 1BY8GQbn" 13
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx14 --keyspace 43537590000000000:+10000000000 1BY8GQbn" 14
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx15 --keyspace 43937590000000000:+10000000000 1BY8GQbn" 15
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx16 --keyspace 43D37590000000000:+10000000000 1BY8GQbn" 16
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx17 --keyspace 44137590000000000:+10000000000 1BY8GQbn" 17
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx18 --keyspace 44537590000000000:+10000000000 1BY8GQbn" 18
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx19 --keyspace 44937590000000000:+10000000000 1BY8GQbn" 19
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx20 --keyspace 44D37590000000000:+10000000000 1BY8GQbn" 20
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx21 --keyspace 45137590000000000:+10000000000 1BY8GQbn" 21
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx22 --keyspace 45537590000000000:+10000000000 1BY8GQbn" 22
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx23 --keyspace 45937590000000000:+10000000000 1BY8GQbn" 23
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx24 --keyspace 45D37590000000000:+10000000000 1BY8GQbn" 24
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx25 --keyspace 46137590000000000:+10000000000 1BY8GQbn" 25
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx26 --keyspace 46537590000000000:+10000000000 1BY8GQbn" 26
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx27 --keyspace 46937590000000000:+10000000000 1BY8GQbn" 27
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx28 --keyspace 46D37590000000000:+10000000000 1BY8GQbn" 28
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx29 --keyspace 47137590000000000:+10000000000 1BY8GQbn" 29
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx30 --keyspace 47537590000000000:+10000000000 1BY8GQbn" 30
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx31 --keyspace 47937590000000000:+10000000000 1BY8GQbn" 31
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx32 --keyspace 47D37590000000000:+10000000000 1BY8GQbn" 32
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx33 --keyspace 48137590000000000:+10000000000 1BY8GQbn" 33
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx34 --keyspace 48537590000000000:+10000000000 1BY8GQbn" 34
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx35 --keyspace 48937590000000000:+10000000000 1BY8GQbn" 35
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx36 --keyspace 48D37590000000000:+10000000000 1BY8GQbn" 36
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx37 --keyspace 49137590000000000:+10000000000 1BY8GQbn" 37
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx38 --keyspace 49537590000000000:+10000000000 1BY8GQbn" 38
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx39 --keyspace 49937590000000000:+10000000000 1BY8GQbn" 39
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx40 --keyspace 49D37590000000000:+10000000000 1BY8GQbn" 40
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx41 --keyspace 4A137590000000000:+10000000000 1BY8GQbn" 41
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx42 --keyspace 4A537590000000000:+10000000000 1BY8GQbn" 42
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx43 --keyspace 4A937590000000000:+10000000000 1BY8GQbn" 43
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx44 --keyspace 4AD37590000000000:+10000000000 1BY8GQbn" 44
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx45 --keyspace 4B137590000000000:+10000000000 1BY8GQbn" 45
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx46 --keyspace 4B537590000000000:+10000000000 1BY8GQbn" 46
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx47 --keyspace 4B937590000000000:+10000000000 1BY8GQbn" 47
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx48 --keyspace 4BD37590000000000:+10000000000 1BY8GQbn" 48
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx49 --keyspace 4C137590000000000:+10000000000 1BY8GQbn" 49
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx50 --keyspace 4C537590000000000:+10000000000 1BY8GQbn" 50
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx51 --keyspace 4C937590000000000:+10000000000 1BY8GQbn" 51
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx52 --keyspace 4CD37590000000000:+10000000000 1BY8GQbn" 52
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx53 --keyspace 4D137590000000000:+10000000000 1BY8GQbn" 53
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx54 --keyspace 4D537590000000000:+10000000000 1BY8GQbn" 54
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx55 --keyspace 4D937590000000000:+10000000000 1BY8GQbn" 55
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx56 --keyspace 4DD37590000000000:+10000000000 1BY8GQbn" 56
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx57 --keyspace 4E137590000000000:+10000000000 1BY8GQbn" 57
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx58 --keyspace 4E537590000000000:+10000000000 1BY8GQbn" 58
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx59 --keyspace 4E937590000000000:+10000000000 1BY8GQbn" 59
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx60 --keyspace 4ED37590000000000:+10000000000 1BY8GQbn" 60
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx61 --keyspace 4F137590000000000:+10000000000 1BY8GQbn" 61
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx62 --keyspace 4F537590000000000:+10000000000 1BY8GQbn" 62
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx63 --keyspace 4F937590000000000:+10000000000 1BY8GQbn" 63
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx64 --keyspace 4FD37590000000000:+10000000000 1BY8GQbn" 64
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx65 --keyspace 50137590000000000:+10000000000 1BY8GQbn" 65
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx66 --keyspace 50537590000000000:+10000000000 1BY8GQbn" 66
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx67 --keyspace 50937590000000000:+10000000000 1BY8GQbn" 67
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx68 --keyspace 50D37590000000000:+10000000000 1BY8GQbn" 68
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx69 --keyspace 51137590000000000:+10000000000 1BY8GQbn" 69
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx70 --keyspace 51537590000000000:+10000000000 1BY8GQbn" 70
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx71 --keyspace 51937590000000000:+10000000000 1BY8GQbn" 71
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx72 --keyspace 51D37590000000000:+10000000000 1BY8GQbn" 72
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx73 --keyspace 52137590000000000:+10000000000 1BY8GQbn" 73
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx74 --keyspace 52537590000000000:+10000000000 1BY8GQbn" 74
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx75 --keyspace 52937590000000000:+10000000000 1BY8GQbn" 75
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx76 --keyspace 52D37590000000000:+10000000000 1BY8GQbn" 76
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx77 --keyspace 53137590000000000:+10000000000 1BY8GQbn" 77
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx78 --keyspace 53537590000000000:+10000000000 1BY8GQbn" 78
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx79 --keyspace 53937590000000000:+10000000000 1BY8GQbn" 79
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx80 --keyspace 53D37590000000000:+10000000000 1BY8GQbn" 80
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx81 --keyspace 54137590000000000:+10000000000 1BY8GQbn" 81
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx82 --keyspace 54537590000000000:+10000000000 1BY8GQbn" 82
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx83 --keyspace 54937590000000000:+10000000000 1BY8GQbn" 83
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx84 --keyspace 54D37590000000000:+10000000000 1BY8GQbn" 84
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx85 --keyspace 55137590000000000:+10000000000 1BY8GQbn" 85
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx86 --keyspace 55537590000000000:+10000000000 1BY8GQbn" 86
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx87 --keyspace 55937590000000000:+10000000000 1BY8GQbn" 87
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx88 --keyspace 55D37590000000000:+10000000000 1BY8GQbn" 88
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx89 --keyspace 56137590000000000:+10000000000 1BY8GQbn" 89
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx90 --keyspace 56537590000000000:+10000000000 1BY8GQbn" 90
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx91 --keyspace 56937590000000000:+10000000000 1BY8GQbn" 91
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx92 --keyspace 56D37590000000000:+10000000000 1BY8GQbn" 92
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx93 --keyspace 57137590000000000:+10000000000 1BY8GQbn" 93
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx94 --keyspace 57537590000000000:+10000000000 1BY8GQbn" 94
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx95 --keyspace 57937590000000000:+10000000000 1BY8GQbn" 95
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx96 --keyspace 57D37590000000000:+10000000000 1BY8GQbn" 96
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx97 --keyspace 58137590000000000:+10000000000 1BY8GQbn" 97
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx98 --keyspace 58537590000000000:+10000000000 1BY8GQbn" 98
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx99 --keyspace 58937590000000000:+10000000000 1BY8GQbn" 99
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx100 --keyspace 58D37590000000000:+10000000000 1BY8GQbn" 100
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx101 --keyspace 59137590000000000:+10000000000 1BY8GQbn" 101
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx102 --keyspace 59537590000000000:+10000000000 1BY8GQbn" 102
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx103 --keyspace 59937590000000000:+10000000000 1BY8GQbn" 103
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx104 --keyspace 59D37590000000000:+10000000000 1BY8GQbn" 104
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx105 --keyspace 5A137590000000000:+10000000000 1BY8GQbn" 105
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx106 --keyspace 5A537590000000000:+10000000000 1BY8GQbn" 106
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx107 --keyspace 5A937590000000000:+10000000000 1BY8GQbn" 107
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx108 --keyspace 5AD37590000000000:+10000000000 1BY8GQbn" 108
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx109 --keyspace 5B137590000000000:+10000000000 1BY8GQbn" 109
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx110 --keyspace 5B537590000000000:+10000000000 1BY8GQbn" 110
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx111 --keyspace 5B937590000000000:+10000000000 1BY8GQbn" 111
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx112 --keyspace 5BD37590000000000:+10000000000 1BY8GQbn" 112
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx113 --keyspace 5C137590000000000:+10000000000 1BY8GQbn" 113
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx114 --keyspace 5C537590000000000:+10000000000 1BY8GQbn" 114
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx115 --keyspace 5C937590000000000:+10000000000 1BY8GQbn" 115
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx116 --keyspace 5CD37590000000000:+10000000000 1BY8GQbn" 116
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx117 --keyspace 5D137590000000000:+10000000000 1BY8GQbn" 117
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx118 --keyspace 5D537590000000000:+10000000000 1BY8GQbn" 118
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx119 --keyspace 5D937590000000000:+10000000000 1BY8GQbn" 119
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx120 --keyspace 5DD37590000000000:+10000000000 1BY8GQbn" 120
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx121 --keyspace 5E137590000000000:+10000000000 1BY8GQbn" 121
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx122 --keyspace 5E537590000000000:+10000000000 1BY8GQbn" 122
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx123 --keyspace 5E937590000000000:+10000000000 1BY8GQbn" 123
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx124 --keyspace 5ED37590000000000:+10000000000 1BY8GQbn" 124
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx125 --keyspace 5F137590000000000:+10000000000 1BY8GQbn" 125
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx126 --keyspace 5F537590000000000:+10000000000 1BY8GQbn" 126
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx127 --keyspace 5F937590000000000:+10000000000 1BY8GQbn" 127
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx128 --keyspace 5FD37590000000000:+10000000000 1BY8GQbn" 128
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx129 --keyspace 60137590000000000:+10000000000 1BY8GQbn" 129
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx130 --keyspace 60537590000000000:+10000000000 1BY8GQbn" 130
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx131 --keyspace 60937590000000000:+10000000000 1BY8GQbn" 131
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx132 --keyspace 60D37590000000000:+10000000000 1BY8GQbn" 132
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx133 --keyspace 61137590000000000:+10000000000 1BY8GQbn" 133
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx134 --keyspace 61537590000000000:+10000000000 1BY8GQbn" 134
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx135 --keyspace 61937590000000000:+10000000000 1BY8GQbn" 135
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx136 --keyspace 61D37590000000000:+10000000000 1BY8GQbn" 136
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx137 --keyspace 62137590000000000:+10000000000 1BY8GQbn" 137
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx138 --keyspace 62537590000000000:+10000000000 1BY8GQbn" 138
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx139 --keyspace 62937590000000000:+10000000000 1BY8GQbn" 139
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx140 --keyspace 62D37590000000000:+10000000000 1BY8GQbn" 140
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx141 --keyspace 63137590000000000:+10000000000 1BY8GQbn" 141
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx142 --keyspace 63537590000000000:+10000000000 1BY8GQbn" 142
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx143 --keyspace 63937590000000000:+10000000000 1BY8GQbn" 143
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx144 --keyspace 63D37590000000000:+10000000000 1BY8GQbn" 144
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx145 --keyspace 64137590000000000:+10000000000 1BY8GQbn" 145
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx146 --keyspace 64537590000000000:+10000000000 1BY8GQbn" 146
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx147 --keyspace 64937590000000000:+10000000000 1BY8GQbn" 147
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx148 --keyspace 64D37590000000000:+10000000000 1BY8GQbn" 148
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx149 --keyspace 65137590000000000:+10000000000 1BY8GQbn" 149
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx150 --keyspace 65537590000000000:+10000000000 1BY8GQbn" 150
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx151 --keyspace 65937590000000000:+10000000000 1BY8GQbn" 151
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx152 --keyspace 65D37590000000000:+10000000000 1BY8GQbn" 152
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx153 --keyspace 66137590000000000:+10000000000 1BY8GQbn" 153
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx154 --keyspace 66537590000000000:+10000000000 1BY8GQbn" 154
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx155 --keyspace 66937590000000000:+10000000000 1BY8GQbn" 155
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx156 --keyspace 66D37590000000000:+10000000000 1BY8GQbn" 156
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx157 --keyspace 67137590000000000:+10000000000 1BY8GQbn" 157
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx158 --keyspace 67537590000000000:+10000000000 1BY8GQbn" 158
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx159 --keyspace 67937590000000000:+10000000000 1BY8GQbn" 159
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx160 --keyspace 67D37590000000000:+10000000000 1BY8GQbn" 160
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx161 --keyspace 68137590000000000:+10000000000 1BY8GQbn" 161
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx162 --keyspace 68537590000000000:+10000000000 1BY8GQbn" 162
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx163 --keyspace 68937590000000000:+10000000000 1BY8GQbn" 163
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx164 --keyspace 68D37590000000000:+10000000000 1BY8GQbn" 164
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx165 --keyspace 69137590000000000:+10000000000 1BY8GQbn" 165
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx166 --keyspace 69537590000000000:+10000000000 1BY8GQbn" 166
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx167 --keyspace 69937590000000000:+10000000000 1BY8GQbn" 167
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx168 --keyspace 69D37590000000000:+10000000000 1BY8GQbn" 168
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx169 --keyspace 6A137590000000000:+10000000000 1BY8GQbn" 169
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx170 --keyspace 6A537590000000000:+10000000000 1BY8GQbn" 170
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx171 --keyspace 6A937590000000000:+10000000000 1BY8GQbn" 171
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx172 --keyspace 6AD37590000000000:+10000000000 1BY8GQbn" 172
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx173 --keyspace 6B137590000000000:+10000000000 1BY8GQbn" 173
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx174 --keyspace 6B537590000000000:+10000000000 1BY8GQbn" 174
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx175 --keyspace 6B937590000000000:+10000000000 1BY8GQbn" 175
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx176 --keyspace 6BD37590000000000:+10000000000 1BY8GQbn" 176
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx177 --keyspace 6C137590000000000:+10000000000 1BY8GQbn" 177
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx178 --keyspace 6C537590000000000:+10000000000 1BY8GQbn" 178
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx179 --keyspace 6C937590000000000:+10000000000 1BY8GQbn" 179
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx180 --keyspace 6CD37590000000000:+10000000000 1BY8GQbn" 180
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx181 --keyspace 6D137590000000000:+10000000000 1BY8GQbn" 181
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx182 --keyspace 6D537590000000000:+10000000000 1BY8GQbn" 182
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx183 --keyspace 6D937590000000000:+10000000000 1BY8GQbn" 183
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx184 --keyspace 6DD37590000000000:+10000000000 1BY8GQbn" 184
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx185 --keyspace 6E137590000000000:+10000000000 1BY8GQbn" 185
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx186 --keyspace 6E537590000000000:+10000000000 1BY8GQbn" 186
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx187 --keyspace 6E937590000000000:+10000000000 1BY8GQbn" 187
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx188 --keyspace 6ED37590000000000:+10000000000 1BY8GQbn" 188
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx189 --keyspace 6F137590000000000:+10000000000 1BY8GQbn" 189
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx190 --keyspace 6F537590000000000:+10000000000 1BY8GQbn" 190
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx191 --keyspace 6F937590000000000:+10000000000 1BY8GQbn" 191
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx192 --keyspace 6FD37590000000000:+10000000000 1BY8GQbn" 192
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx193 --keyspace 70137590000000000:+10000000000 1BY8GQbn" 193
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx194 --keyspace 70537590000000000:+10000000000 1BY8GQbn" 194
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx195 --keyspace 70937590000000000:+10000000000 1BY8GQbn" 195
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx196 --keyspace 70D37590000000000:+10000000000 1BY8GQbn" 196
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx197 --keyspace 71137590000000000:+10000000000 1BY8GQbn" 197
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx198 --keyspace 71537590000000000:+10000000000 1BY8GQbn" 198
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx199 --keyspace 71937590000000000:+10000000000 1BY8GQbn" 199
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx200 --keyspace 71D37590000000000:+10000000000 1BY8GQbn" 200
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx201 --keyspace 72137590000000000:+10000000000 1BY8GQbn" 201
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx202 --keyspace 72537590000000000:+10000000000 1BY8GQbn" 202
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx203 --keyspace 72937590000000000:+10000000000 1BY8GQbn" 203
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx204 --keyspace 72D37590000000000:+10000000000 1BY8GQbn" 204
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx205 --keyspace 73137590000000000:+10000000000 1BY8GQbn" 205
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx206 --keyspace 73537590000000000:+10000000000 1BY8GQbn" 206
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx207 --keyspace 73937590000000000:+10000000000 1BY8GQbn" 207
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx208 --keyspace 73D37590000000000:+10000000000 1BY8GQbn" 208
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx209 --keyspace 74137590000000000:+10000000000 1BY8GQbn" 209
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx210 --keyspace 74537590000000000:+10000000000 1BY8GQbn" 210
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx211 --keyspace 74937590000000000:+10000000000 1BY8GQbn" 211
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx212 --keyspace 74D37590000000000:+10000000000 1BY8GQbn" 212
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx213 --keyspace 75137590000000000:+10000000000 1BY8GQbn" 213
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx214 --keyspace 75537590000000000:+10000000000 1BY8GQbn" 214
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx215 --keyspace 75937590000000000:+10000000000 1BY8GQbn" 215
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx216 --keyspace 75D37590000000000:+10000000000 1BY8GQbn" 216
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx217 --keyspace 76137590000000000:+10000000000 1BY8GQbn" 217
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx218 --keyspace 76537590000000000:+10000000000 1BY8GQbn" 218
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx219 --keyspace 76937590000000000:+10000000000 1BY8GQbn" 219
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx220 --keyspace 76D37590000000000:+10000000000 1BY8GQbn" 220
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx221 --keyspace 77137590000000000:+10000000000 1BY8GQbn" 221
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx222 --keyspace 77537590000000000:+10000000000 1BY8GQbn" 222
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx223 --keyspace 77937590000000000:+10000000000 1BY8GQbn" 223
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx224 --keyspace 77D37590000000000:+10000000000 1BY8GQbn" 224
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx225 --keyspace 78137590000000000:+10000000000 1BY8GQbn" 225
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx226 --keyspace 78537590000000000:+10000000000 1BY8GQbn" 226
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx227 --keyspace 78937590000000000:+10000000000 1BY8GQbn" 227
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx228 --keyspace 78D37590000000000:+10000000000 1BY8GQbn" 228
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx229 --keyspace 79137590000000000:+10000000000 1BY8GQbn" 229
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx230 --keyspace 79537590000000000:+10000000000 1BY8GQbn" 230
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx231 --keyspace 79937590000000000:+10000000000 1BY8GQbn" 231
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx232 --keyspace 79D37590000000000:+10000000000 1BY8GQbn" 232
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx233 --keyspace 7A137590000000000:+10000000000 1BY8GQbn" 233
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx234 --keyspace 7A537590000000000:+10000000000 1BY8GQbn" 234
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx235 --keyspace 7A937590000000000:+10000000000 1BY8GQbn" 235
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx236 --keyspace 7AD37590000000000:+10000000000 1BY8GQbn" 236
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx237 --keyspace 7B137590000000000:+10000000000 1BY8GQbn" 237
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx238 --keyspace 7B537590000000000:+10000000000 1BY8GQbn" 238
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx239 --keyspace 7B937590000000000:+10000000000 1BY8GQbn" 239
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx240 --keyspace 7BD37590000000000:+10000000000 1BY8GQbn" 240
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx241 --keyspace 7C137590000000000:+10000000000 1BY8GQbn" 241
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx242 --keyspace 7C537590000000000:+10000000000 1BY8GQbn" 242
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx243 --keyspace 7C937590000000000:+10000000000 1BY8GQbn" 243
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx244 --keyspace 7CD37590000000000:+10000000000 1BY8GQbn" 244
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx245 --keyspace 7D137590000000000:+10000000000 1BY8GQbn" 245
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx246 --keyspace 7D537590000000000:+10000000000 1BY8GQbn" 246
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx247 --keyspace 7D937590000000000:+10000000000 1BY8GQbn" 247
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx248 --keyspace 7DD37590000000000:+10000000000 1BY8GQbn" 248
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx249 --keyspace 7E137590000000000:+10000000000 1BY8GQbn" 249
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx250 --keyspace 7E537590000000000:+10000000000 1BY8GQbn" 250
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx251 --keyspace 7E937590000000000:+10000000000 1BY8GQbn" 251
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx252 --keyspace 7ED37590000000000:+10000000000 1BY8GQbn" 252
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx253 --keyspace 7F137590000000000:+10000000000 1BY8GQbn" 253
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx254 --keyspace 7F537590000000000:+10000000000 1BY8GQbn" 254
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx255 --keyspace 7F937590000000000:+10000000000 1BY8GQbn" 255
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1Lockbit3.0.txt --continue yx256 --keyspace 7FD37590000000000:+10000000000 1BY8GQbn" 256
