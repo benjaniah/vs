@@ -741,7 +741,7 @@ int main(int argc, char* argv[]) {
     nbCPUThread = 0;
 
   if (rekey == 0) rekey = 1000;
-  if (gpuEnable && rekey <= 100000) rekey = 100000;
+  if (gpuEnable && rekey <= 50000) rekey = 50000;
 
 
   // If a starting public key is specified, force the search mode according to the key
