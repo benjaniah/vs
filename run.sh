@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-LOGFILE="progress_runsomeruns.log"
+LOGFILE="progress_runSHORT4605.log"
 
 # Function to run a command and log its completion
 run_command() {
@@ -26,10 +26,7 @@ run_command() {
 
 
 
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 10RANSOMWARE.txt --continue xy1 --keyspace 6DF57500000000000:+80000000000 1BY8GQbn" 1
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 10RANSOMWARE.txt --continue xy2 --keyspace 6DF575A0000000000:+60000000000 1BY8GQbn" 2
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 10RANSOMWARE.txt --continue xy3 --keyspace 6CA57500000000000:+80000000000 1BY8GQbn" 3
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 10RANSOMWARE.txt --continue xy4 --keyspace 6CA57590000000000:+60000000000 1BY8GQbn" 4
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 10RANSOMWARE.txt --continue xy5 --keyspace 6BD57500000000000:+10000000000 1BY8GQbn" 5
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 10RANSOMWARE.txt --continue xy6 --keyspace 6BD57520000000000:+70000000000 1BY8GQbn" 6
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 10RANSOMWARE.txt --continue xy7 --keyspace 6BD575A0000000000:+60000000000 1BY8GQbn" 7
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue xy1 --keyspace 4605BA80000000000:+10000000000 1BY8GQbn" 1
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue xy2 --keyspace 4605BAA0000000000:+10000000000 1BY8GQbn" 2
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue xy3 --keyspace 4605BAC0000000000:+10000000000 1BY8GQbn" 3
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue xy4 --keyspace 4605BAE0000000000:+120000000000 1BY8GQbn" 4
