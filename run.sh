@@ -219,3 +219,4 @@ run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --contin
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue x193 --keyspace 7EA37AC0000000000:+10000000000 1BY8GQbn" 193
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue x194 --keyspace 7FA37AC0000000000:+10000000000 1BY8GQbn" 194
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue x195 --keyspace 80A37AC0000000000:+10000000000 1BY8GQbn" 195
+
