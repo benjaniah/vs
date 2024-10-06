@@ -1,7 +1,7 @@
-
+#74a23
 #!/bin/bash
 
-LOGFILE="progress_faketest.log"
+LOGFILE="progress_run94.log"
 
 # Function to run a command and log its completion
 run_command() {
@@ -24,609 +24,67 @@ run_command() {
 # Task 1
 
 
-
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x1 --keyspace 544F0C00000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 1
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x2 --keyspace 546A2010000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 2
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x3 --keyspace 54853420000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 3
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x4 --keyspace 54A04830000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 4
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x5 --keyspace 54BB5C40000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 5
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x6 --keyspace 54D67050000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 6
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x7 --keyspace 54F18460000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 7
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x8 --keyspace 550C9870000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 8
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x9 --keyspace 5527AC80000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 9
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x10 --keyspace 5542C090000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 10
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x11 --keyspace 555DD4A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 11
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x12 --keyspace 5578E8B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 12
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x13 --keyspace 5593FCC0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 13
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x14 --keyspace 55AF10D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 14
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x15 --keyspace 55CA24E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 15
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x16 --keyspace 55E538F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 16
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x17 --keyspace 56004D00000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 17
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x18 --keyspace 561B6110000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 18
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x19 --keyspace 56367520000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 19
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x20 --keyspace 56518930000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 20
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x21 --keyspace 566C9D40000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 21
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x22 --keyspace 5687B150000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 22
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x23 --keyspace 56A2C560000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 23
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x24 --keyspace 56BDD970000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 24
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x25 --keyspace 56D8ED80000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 25
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x26 --keyspace 56F40190000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 26
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x27 --keyspace 570F15A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 27
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x28 --keyspace 572A29B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 28
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x29 --keyspace 57453DC0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 29
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x30 --keyspace 576051D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 30
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x31 --keyspace 577B65E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 31
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x32 --keyspace 579679F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 32
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x33 --keyspace 57B18E00000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 33
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x34 --keyspace 57CCA210000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 34
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x35 --keyspace 57E7B620000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 35
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x36 --keyspace 5802CA30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 36
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x37 --keyspace 581DDE40000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 37
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x38 --keyspace 5838F250000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 38
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x39 --keyspace 58540660000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 39
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x40 --keyspace 586F1A70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 40
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x41 --keyspace 588A2E80000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 41
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x42 --keyspace 58A54290000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 42
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x43 --keyspace 58C056A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 43
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x44 --keyspace 58DB6AB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 44
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x45 --keyspace 58F67EC0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 45
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x46 --keyspace 591192D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 46
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x47 --keyspace 592CA6E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 47
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x48 --keyspace 5947BAF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 48
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x49 --keyspace 5962CF00000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 49
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x50 --keyspace 597DE310000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 50
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x51 --keyspace 5998F720000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 51
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x52 --keyspace 59B40B30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 52
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x53 --keyspace 59CF1F40000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 53
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x54 --keyspace 59EA3350000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 54
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x55 --keyspace 5A054760000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 55
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x56 --keyspace 5A205B70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 56
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x57 --keyspace 5A3B6F80000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 57
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x58 --keyspace 5A568390000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 58
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x59 --keyspace 5A7197A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 59
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x60 --keyspace 5A8CABB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 60
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x61 --keyspace 5AA7BFC0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 61
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x62 --keyspace 5AC2D3D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 62
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x63 --keyspace 5ADDE7E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 63
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x64 --keyspace 5AF8FBF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 64
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x65 --keyspace 5B141000000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 65
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x66 --keyspace 5B2F2410000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 66
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x67 --keyspace 5B4A3820000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 67
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x68 --keyspace 5B654C30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 68
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x69 --keyspace 5B806040000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 69
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x70 --keyspace 5B9B7450000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 70
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x71 --keyspace 5BB68860000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 71
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x72 --keyspace 5BD19C70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 72
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x73 --keyspace 5BECB080000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 73
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x74 --keyspace 5C07C490000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 74
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x75 --keyspace 5C22D8A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 75
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x76 --keyspace 5C3DECB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 76
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x77 --keyspace 5C5900C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 77
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x78 --keyspace 5C7414D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 78
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x79 --keyspace 5C8F28E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 79
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x80 --keyspace 5CAA3CF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 80
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x81 --keyspace 5CC55100000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 81
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x82 --keyspace 5CE06510000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 82
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x83 --keyspace 5CFB7920000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 83
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x84 --keyspace 5D168D30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 84
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x85 --keyspace 5D31A140000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 85
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x86 --keyspace 5D4CB550000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 86
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x87 --keyspace 5D67C960000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 87
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x88 --keyspace 5D82DD70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 88
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x89 --keyspace 5D9DF180000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 89
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x90 --keyspace 5DB90590000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 90
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x91 --keyspace 5DD419A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 91
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x92 --keyspace 5DEF2DB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 92
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x93 --keyspace 5E0A41C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 93
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x94 --keyspace 5E2555D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 94
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x95 --keyspace 5E4069E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 95
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x96 --keyspace 5E5B7DF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 96
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x97 --keyspace 5E769200000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 97
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x98 --keyspace 5E91A610000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 98
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x99 --keyspace 5EACBA20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 99
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x100 --keyspace 5EC7CE30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 100
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x101 --keyspace 5EE2E240000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 101
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x102 --keyspace 5EFDF650000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 102
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x103 --keyspace 5F190A60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 103
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x104 --keyspace 5F341E70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 104
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x105 --keyspace 5F4F3280000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 105
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x106 --keyspace 5F6A4690000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 106
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x107 --keyspace 5F855AA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 107
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x108 --keyspace 5FA06EB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 108
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x109 --keyspace 5FBB82C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 109
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x110 --keyspace 5FD696D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 110
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x111 --keyspace 5FF1AAE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 111
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x112 --keyspace 600CBEF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 112
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x113 --keyspace 6027D300000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 113
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x114 --keyspace 6042E710000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 114
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x115 --keyspace 605DFB20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 115
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x116 --keyspace 60790F30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 116
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x117 --keyspace 60942340000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 117
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x118 --keyspace 60AF3750000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 118
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x119 --keyspace 60CA4B60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 119
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x120 --keyspace 60E55F70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 120
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x121 --keyspace 61007380000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 121
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x122 --keyspace 611B8790000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 122
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x123 --keyspace 61369BA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 123
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x124 --keyspace 6151AFB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 124
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x125 --keyspace 616CC3C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 125
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x126 --keyspace 6187D7D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 126
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x127 --keyspace 61A2EBE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 127
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x128 --keyspace 61BDFFF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 128
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x129 --keyspace 61D91400000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 129
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x130 --keyspace 61F42810000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 130
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x131 --keyspace 620F3C20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 131
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x132 --keyspace 622A5030000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 132
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x133 --keyspace 62456440000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 133
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x134 --keyspace 62607850000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 134
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x135 --keyspace 627B8C60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 135
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x136 --keyspace 6296A070000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 136
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x137 --keyspace 62B1B480000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 137
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x138 --keyspace 62CCC890000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 138
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x139 --keyspace 62E7DCA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 139
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x140 --keyspace 6302F0B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 140
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x141 --keyspace 631E04C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 141
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x142 --keyspace 633918D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 142
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x143 --keyspace 63542CE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 143
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x144 --keyspace 636F40F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 144
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x145 --keyspace 638A5500000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 145
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x146 --keyspace 63A56910000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 146
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x147 --keyspace 63C07D20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 147
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x148 --keyspace 63DB9130000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 148
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x149 --keyspace 63F6A540000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 149
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x150 --keyspace 6411B950000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 150
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x151 --keyspace 642CCD60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 151
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x152 --keyspace 6447E170000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 152
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x153 --keyspace 6462F580000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 153
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x154 --keyspace 647E0990000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 154
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x155 --keyspace 64991DA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 155
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x156 --keyspace 64B431B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 156
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x157 --keyspace 64CF45C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 157
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x158 --keyspace 64EA59D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 158
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x159 --keyspace 65056DE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 159
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x160 --keyspace 652081F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 160
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x161 --keyspace 653B9600000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 161
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x162 --keyspace 6556AA10000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 162
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x163 --keyspace 6571BE20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 163
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x164 --keyspace 658CD230000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 164
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x165 --keyspace 65A7E640000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 165
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x166 --keyspace 65C2FA50000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 166
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x167 --keyspace 65DE0E60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 167
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x168 --keyspace 65F92270000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 168
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x169 --keyspace 66143680000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 169
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x170 --keyspace 662F4A90000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 170
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x171 --keyspace 664A5EA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 171
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x172 --keyspace 666572B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 172
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x173 --keyspace 668086C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 173
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x174 --keyspace 669B9AD0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 174
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x175 --keyspace 66B6AEE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 175
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x176 --keyspace 66D1C2F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 176
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x177 --keyspace 66ECD700000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 177
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x178 --keyspace 6707EB10000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 178
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x179 --keyspace 6722FF20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 179
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x180 --keyspace 673E1330000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 180
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x181 --keyspace 67592740000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 181
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x182 --keyspace 67743B50000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 182
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x183 --keyspace 678F4F60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 183
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x184 --keyspace 67AA6370000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 184
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x185 --keyspace 67C57780000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 185
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x186 --keyspace 67E08B90000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 186
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x187 --keyspace 67FB9FA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 187
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x188 --keyspace 6816B3B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 188
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x189 --keyspace 6831C7C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 189
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x190 --keyspace 684CDBD0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 190
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x191 --keyspace 6867EFE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 191
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x192 --keyspace 688303F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 192
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x193 --keyspace 689E1800000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 193
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x194 --keyspace 68B92C10000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 194
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x195 --keyspace 68D44020000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 195
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x196 --keyspace 68EF5430000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 196
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x197 --keyspace 690A6840000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 197
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x198 --keyspace 69257C50000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 198
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x199 --keyspace 69409060000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 199
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x200 --keyspace 695BA470000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 200
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x201 --keyspace 6976B880000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 201
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x202 --keyspace 6991CC90000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 202
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x203 --keyspace 69ACE0A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 203
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x204 --keyspace 69C7F4B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 204
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x205 --keyspace 69E308C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 205
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x206 --keyspace 69FE1CD0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 206
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x207 --keyspace 6A1930E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 207
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x208 --keyspace 6A3444F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 208
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x209 --keyspace 6A4F5900000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 209
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x210 --keyspace 6A6A6D10000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 210
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x211 --keyspace 6A858120000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 211
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x212 --keyspace 6AA09530000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 212
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x213 --keyspace 6ABBA940000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 213
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x214 --keyspace 6AD6BD50000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 214
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x215 --keyspace 6AF1D160000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 215
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x216 --keyspace 6B0CE570000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 216
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x217 --keyspace 6B27F980000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 217
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x218 --keyspace 6B430D90000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 218
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x219 --keyspace 6B5E21A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 219
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x220 --keyspace 6B7935B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 220
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x221 --keyspace 6B9449C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 221
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x222 --keyspace 6BAF5DD0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 222
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x223 --keyspace 6BCA71E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 223
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x224 --keyspace 6BE585F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 224
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x225 --keyspace 6C009A00000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 225
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x226 --keyspace 6C1BAE10000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 226
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x227 --keyspace 6C36C220000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 227
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x228 --keyspace 6C51D630000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 228
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x229 --keyspace 6C6CEA40000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 229
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x230 --keyspace 6C87FE50000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 230
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x231 --keyspace 6CA31260000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 231
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x232 --keyspace 6CBE2670000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 232
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x233 --keyspace 6CD93A80000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 233
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x234 --keyspace 6CF44E90000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 234
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x235 --keyspace 6D0F62A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 235
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x236 --keyspace 6D2A76B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 236
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x237 --keyspace 6D458AC0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 237
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x238 --keyspace 6D609ED0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 238
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x239 --keyspace 6D7BB2E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 239
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x240 --keyspace 6D96C6F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 240
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x241 --keyspace 6DB1DB00000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 241
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x242 --keyspace 6DCCEF10000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 242
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x243 --keyspace 6DE80320000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 243
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x244 --keyspace 6E031730000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 244
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x245 --keyspace 6E1E2B40000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 245
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x246 --keyspace 6E393F50000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 246
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x247 --keyspace 6E545360000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 247
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x248 --keyspace 6E6F6770000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 248
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x249 --keyspace 6E8A7B80000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 249
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x250 --keyspace 6EA58F90000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 250
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x251 --keyspace 6EC0A3A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 251
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x252 --keyspace 6EDBB7B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 252
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x253 --keyspace 6EF6CBC0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 253
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x254 --keyspace 6F11DFD0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 254
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x255 --keyspace 6F2CF3E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 255
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x256 --keyspace 6F4807F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 256
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x257 --keyspace 6F631C00000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 257
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x258 --keyspace 6F7E3010000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 258
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x259 --keyspace 6F994420000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 259
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x260 --keyspace 6FB45830000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 260
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x261 --keyspace 6FCF6C40000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 261
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x262 --keyspace 6FEA8050000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 262
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x263 --keyspace 70059460000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 263
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x264 --keyspace 7020A870000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 264
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x265 --keyspace 703BBC80000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 265
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x266 --keyspace 7056D090000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 266
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x267 --keyspace 7071E4A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 267
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x268 --keyspace 708CF8B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 268
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x269 --keyspace 70A80CC0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 269
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x270 --keyspace 70C320D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 270
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x271 --keyspace 70DE34E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 271
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x272 --keyspace 70F948F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 272
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x273 --keyspace 71145D00000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 273
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x274 --keyspace 712F7110000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 274
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x275 --keyspace 714A8520000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 275
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x276 --keyspace 71659930000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 276
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x277 --keyspace 7180AD40000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 277
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x278 --keyspace 719BC150000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 278
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x279 --keyspace 71B6D560000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 279
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x280 --keyspace 71D1E970000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 280
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x281 --keyspace 71ECFD80000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 281
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x282 --keyspace 72081190000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 282
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x283 --keyspace 722325A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 283
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x284 --keyspace 723E39B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 284
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x285 --keyspace 72594DC0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 285
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x286 --keyspace 727461D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 286
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x287 --keyspace 728F75E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 287
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x288 --keyspace 72AA89F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 288
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x289 --keyspace 72C59E00000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 289
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x290 --keyspace 72E0B210000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 290
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x291 --keyspace 72FBC620000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 291
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x292 --keyspace 7316DA30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 292
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x293 --keyspace 7331EE40000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 293
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x294 --keyspace 734D0250000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 294
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x295 --keyspace 73681660000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 295
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x296 --keyspace 73832A70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 296
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x297 --keyspace 739E3E80000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 297
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x298 --keyspace 73B95290000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 298
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x299 --keyspace 73D466A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 299
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x300 --keyspace 73EF7AB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 300
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x301 --keyspace 740A8EC0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 301
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x302 --keyspace 7425A2D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 302
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x303 --keyspace 7440B6E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 303
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x304 --keyspace 745BCAF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 304
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x305 --keyspace 7476DF00000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 305
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x306 --keyspace 7491F310000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 306
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x307 --keyspace 74AD0720000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 307
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x308 --keyspace 74C81B30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 308
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x309 --keyspace 74E32F40000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 309
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x310 --keyspace 74FE4350000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 310
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x311 --keyspace 75195760000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 311
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x312 --keyspace 75346B70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 312
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x313 --keyspace 754F7F80000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 313
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x314 --keyspace 756A9390000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 314
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x315 --keyspace 7585A7A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 315
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x316 --keyspace 75A0BBB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 316
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x317 --keyspace 75BBCFC0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 317
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x318 --keyspace 75D6E3D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 318
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x319 --keyspace 75F1F7E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 319
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x320 --keyspace 760D0BF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 320
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x321 --keyspace 76282000000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 321
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x322 --keyspace 76433410000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 322
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x323 --keyspace 765E4820000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 323
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x324 --keyspace 76795C30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 324
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x325 --keyspace 76947040000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 325
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x326 --keyspace 76AF8450000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 326
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x327 --keyspace 76CA9860000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 327
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x328 --keyspace 76E5AC70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 328
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x329 --keyspace 7700C080000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 329
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x330 --keyspace 771BD490000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 330
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x331 --keyspace 7736E8A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 331
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x332 --keyspace 7751FCB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 332
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x333 --keyspace 776D10C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 333
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x334 --keyspace 778824D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 334
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x335 --keyspace 77A338E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 335
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x336 --keyspace 77BE4CF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 336
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x337 --keyspace 77D96100000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 337
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x338 --keyspace 77F47510000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 338
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x339 --keyspace 780F8920000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 339
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x340 --keyspace 782A9D30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 340
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x341 --keyspace 7845B140000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 341
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x342 --keyspace 7860C550000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 342
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x343 --keyspace 787BD960000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 343
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x344 --keyspace 7896ED70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 344
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x345 --keyspace 78B20180000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 345
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x346 --keyspace 78CD1590000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 346
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x347 --keyspace 78E829A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 347
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x348 --keyspace 79033DB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 348
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x349 --keyspace 791E51C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 349
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x350 --keyspace 793965D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 350
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x351 --keyspace 795479E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 351
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x352 --keyspace 796F8DF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 352
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x353 --keyspace 798AA200000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 353
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x354 --keyspace 79A5B610000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 354
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x355 --keyspace 79C0CA20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 355
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x356 --keyspace 79DBDE30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 356
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x357 --keyspace 79F6F240000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 357
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x358 --keyspace 7A120650000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 358
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x359 --keyspace 7A2D1A60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 359
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x360 --keyspace 7A482E70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 360
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x361 --keyspace 7A634280000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 361
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x362 --keyspace 7A7E5690000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 362
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x363 --keyspace 7A996AA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 363
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x364 --keyspace 7AB47EB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 364
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x365 --keyspace 7ACF92C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 365
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x366 --keyspace 7AEAA6D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 366
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x367 --keyspace 7B05BAE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 367
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x368 --keyspace 7B20CEF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 368
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x369 --keyspace 7B3BE300000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 369
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x370 --keyspace 7B56F710000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 370
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x371 --keyspace 7B720B20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 371
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x372 --keyspace 7B8D1F30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 372
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x373 --keyspace 7BA83340000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 373
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x374 --keyspace 7BC34750000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 374
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x375 --keyspace 7BDE5B60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 375
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x376 --keyspace 7BF96F70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 376
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x377 --keyspace 7C148380000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 377
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x378 --keyspace 7C2F9790000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 378
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x379 --keyspace 7C4AABA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 379
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x380 --keyspace 7C65BFB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 380
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x381 --keyspace 7C80D3C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 381
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x382 --keyspace 7C9BE7D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 382
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x383 --keyspace 7CB6FBE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 383
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x384 --keyspace 7CD20FF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 384
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x385 --keyspace 7CED2400000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 385
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x386 --keyspace 7D083810000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 386
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x387 --keyspace 7D234C20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 387
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x388 --keyspace 7D3E6030000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 388
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x389 --keyspace 7D597440000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 389
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x390 --keyspace 7D748850000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 390
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x391 --keyspace 7D8F9C60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 391
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x392 --keyspace 7DAAB070000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 392
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x393 --keyspace 7DC5C480000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 393
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x394 --keyspace 7DE0D890000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 394
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x395 --keyspace 7DFBECA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 395
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x396 --keyspace 7E1700B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 396
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x397 --keyspace 7E3214C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 397
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x398 --keyspace 7E4D28D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 398
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x399 --keyspace 7E683CE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 399
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x400 --keyspace 7E8350F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 400
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x401 --keyspace 7E9E6500000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 401
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x402 --keyspace 7EB97910000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 402
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x403 --keyspace 7ED48D20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 403
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x404 --keyspace 7EEFA130000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 404
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x405 --keyspace 7F0AB540000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 405
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x406 --keyspace 7F25C950000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 406
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x407 --keyspace 7F40DD60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 407
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x408 --keyspace 7F5BF170000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 408
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x409 --keyspace 7F770580000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 409
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x410 --keyspace 7F921990000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 410
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x411 --keyspace 7FAD2DA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 411
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x412 --keyspace 7FC841B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 412
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x413 --keyspace 7FE355C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 413
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x414 --keyspace 7FFE69D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 414
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x415 --keyspace 401B1410000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 415
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x416 --keyspace 40362820000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 416
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x417 --keyspace 40513C30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 417
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x418 --keyspace 406C5040000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 418
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x419 --keyspace 40876450000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 419
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x420 --keyspace 40A27860000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 420
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x421 --keyspace 40BD8C70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 421
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x422 --keyspace 40D8A080000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 422
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x423 --keyspace 40F3B490000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 423
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x424 --keyspace 410EC8A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 424
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x425 --keyspace 4129DCB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 425
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x426 --keyspace 4144F0C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 426
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x427 --keyspace 416004D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 427
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x428 --keyspace 417B18E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 428
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x429 --keyspace 41962CF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 429
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x430 --keyspace 41B14100000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 430
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x431 --keyspace 41CC5510000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 431
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x432 --keyspace 41E76920000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 432
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x433 --keyspace 42027D30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 433
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x434 --keyspace 421D9140000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 434
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x435 --keyspace 4238A550000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 435
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x436 --keyspace 4253B960000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 436
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x437 --keyspace 426ECD70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 437
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x438 --keyspace 4289E180000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 438
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x439 --keyspace 42A4F590000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 439
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x440 --keyspace 42C009A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 440
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x441 --keyspace 42DB1DB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 441
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x442 --keyspace 42F631C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 442
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x443 --keyspace 431145D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 443
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x444 --keyspace 432C59E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 444
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x445 --keyspace 43476DF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 445
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x446 --keyspace 43628200000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 446
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x447 --keyspace 437D9610000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 447
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x448 --keyspace 4398AA20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 448
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x449 --keyspace 43B3BE30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 449
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x450 --keyspace 43CED240000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 450
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x451 --keyspace 43E9E650000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 451
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x452 --keyspace 4404FA60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 452
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x453 --keyspace 44200E70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 453
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x454 --keyspace 443B2280000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 454
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x455 --keyspace 44563690000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 455
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x456 --keyspace 44714AA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 456
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x457 --keyspace 448C5EB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 457
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x458 --keyspace 44A772C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 458
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x459 --keyspace 44C286D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 459
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x460 --keyspace 44DD9AE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 460
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x461 --keyspace 44F8AEF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 461
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x462 --keyspace 4513C300000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 462
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x463 --keyspace 452ED710000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 463
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x464 --keyspace 4549EB20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 464
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x465 --keyspace 4564FF30000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 465
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x466 --keyspace 45801340000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 466
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x467 --keyspace 459B2750000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 467
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x468 --keyspace 45B63B60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 468
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x469 --keyspace 45D14F70000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 469
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x470 --keyspace 45EC6380000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 470
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x471 --keyspace 46077790000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 471
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x472 --keyspace 46228BA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 472
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x473 --keyspace 463D9FB0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 473
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x474 --keyspace 4658B3C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 474
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x475 --keyspace 4673C7D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 475
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x476 --keyspace 468EDBE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 476
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x477 --keyspace 46A9EFF0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 477
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x478 --keyspace 46C50400000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 478
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x479 --keyspace 46E01810000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 479
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x480 --keyspace 46FB2C20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 480
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x481 --keyspace 47164030000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 481
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x482 --keyspace 47315440000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 482
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x483 --keyspace 474C6850000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 483
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x484 --keyspace 47677C60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 484
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x485 --keyspace 47829070000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 485
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x486 --keyspace 479DA480000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 486
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x487 --keyspace 47B8B890000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 487
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x488 --keyspace 47D3CCA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 488
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x489 --keyspace 47EEE0B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 489
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x490 --keyspace 4809F4C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 490
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x491 --keyspace 482508D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 491
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x492 --keyspace 48401CE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 492
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x493 --keyspace 485B30F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 493
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x494 --keyspace 48764500000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 494
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x495 --keyspace 48915910000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 495
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x496 --keyspace 48AC6D20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 496
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x497 --keyspace 48C78130000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 497
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x498 --keyspace 48E29540000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 498
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x499 --keyspace 48FDA950000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 499
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x500 --keyspace 4918BD60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 500
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x501 --keyspace 4933D170000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 501
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x502 --keyspace 494EE580000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 502
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x503 --keyspace 4969F990000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 503
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x504 --keyspace 49850DA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 504
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x505 --keyspace 49A021B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 505
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x506 --keyspace 49BB35C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 506
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x507 --keyspace 49D649D0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 507
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x508 --keyspace 49F15DE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 508
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x509 --keyspace 4A0C71F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 509
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x510 --keyspace 4A278600000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 510
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x511 --keyspace 4A429A10000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 511
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x512 --keyspace 4A5DAE20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 512
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x513 --keyspace 4A78C230000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 513
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x514 --keyspace 4A93D640000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 514
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x515 --keyspace 4AAEEA50000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 515
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x516 --keyspace 4AC9FE60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 516
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x517 --keyspace 4AE51270000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 517
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x518 --keyspace 4B002680000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 518
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x519 --keyspace 4B1B3A90000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 519
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x520 --keyspace 4B364EA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 520
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x521 --keyspace 4B5162B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 521
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x522 --keyspace 4B6C76C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 522
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x523 --keyspace 4B878AD0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 523
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x524 --keyspace 4BA29EE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 524
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x525 --keyspace 4BBDB2F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 525
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x526 --keyspace 4BD8C700000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 526
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x527 --keyspace 4BF3DB10000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 527
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x528 --keyspace 4C0EEF20000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 528
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x529 --keyspace 4C2A0330000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 529
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x530 --keyspace 4C451740000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 530
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x531 --keyspace 4C602B50000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 531
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x532 --keyspace 4C7B3F60000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 532
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x533 --keyspace 4C965370000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 533
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x534 --keyspace 4CB16780000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 534
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x535 --keyspace 4CCC7B90000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 535
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x536 --keyspace 4CE78FA0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 536
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x537 --keyspace 4D02A3B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 537
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x538 --keyspace 4D1DB7C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 538
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x539 --keyspace 4D38CBD0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 539
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x540 --keyspace 4D53DFE0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 540
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x541 --keyspace 4D6EF3F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 541
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x542 --keyspace 4D8A0800000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 542
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x543 --keyspace 4DA51C10000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 543
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x544 --keyspace 4DC03020000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 544
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x545 --keyspace 4DDB4430000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 545
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x546 --keyspace 4DF65840000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 546
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x547 --keyspace 4E116C50000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 547
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x548 --keyspace 4E2C8060000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 548
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x549 --keyspace 4E479470000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 549
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x550 --keyspace 4E62A880000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 550
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x551 --keyspace 4E7DBC90000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 551
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x552 --keyspace 4E98D0A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 552
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x553 --keyspace 4EB3E4B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 553
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x554 --keyspace 4ECEF8C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 554
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x555 --keyspace 4EEA0CD0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 555
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x556 --keyspace 4F0520E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 556
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x557 --keyspace 4F2034F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 557
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x558 --keyspace 4F3B4900000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 558
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x559 --keyspace 4F565D10000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 559
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x560 --keyspace 4F717120000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 560
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x561 --keyspace 4F8C8530000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 561
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x562 --keyspace 4FA79940000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 562
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x563 --keyspace 4FC2AD50000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 563
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x564 --keyspace 4FDDC160000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 564
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x565 --keyspace 4FF8D570000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 565
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x566 --keyspace 5013E980000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 566
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x567 --keyspace 502EFD90000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 567
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x568 --keyspace 504A11A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 568
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x569 --keyspace 506525B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 569
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x570 --keyspace 508039C0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 570
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x571 --keyspace 509B4DD0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 571
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x572 --keyspace 50B661E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 572
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x573 --keyspace 50D175F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 573
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x574 --keyspace 50EC8A00000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 574
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x575 --keyspace 51079E10000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 575
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x576 --keyspace 5122B220000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 576
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x577 --keyspace 513DC630000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 577
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x578 --keyspace 5158DA40000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 578
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x579 --keyspace 5173EE50000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 579
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x580 --keyspace 518F0260000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 580
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x581 --keyspace 51AA1670000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 581
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x582 --keyspace 51C52A80000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 582
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x583 --keyspace 51E03E90000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 583
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x584 --keyspace 51FB52A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 584
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x585 --keyspace 521666B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 585
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x586 --keyspace 52317AC0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 586
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x587 --keyspace 524C8ED0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 587
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x588 --keyspace 5267A2E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 588
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x589 --keyspace 5282B6F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 589
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x590 --keyspace 529DCB00000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 590
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x591 --keyspace 52B8DF10000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 591
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x592 --keyspace 52D3F320000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 592
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x593 --keyspace 52EF0730000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 593
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x594 --keyspace 530A1B40000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 594
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x595 --keyspace 53252F50000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 595
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x596 --keyspace 53404360000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 596
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x597 --keyspace 535B5770000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 597
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x598 --keyspace 53766B80000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 598
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x599 --keyspace 53917F90000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 599
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x600 --keyspace 53AC93A0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 600
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x601 --keyspace 53C7A7B0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 601
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x602 --keyspace 53E2BBC0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 602
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x603 --keyspace 53FDCFD0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 603
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x604 --keyspace 5418E3E0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 604
-run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 -stop -o 1RANSOMWARE.txt --continue x605 --keyspace 5433F7F0000000000:+10000000000 1BY8GQbn | tee -a loggit.txt" 605
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-01 --keyspace 4074a230000000000:+10000000000 1BY8GQbn" 1
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-02 --keyspace 4174a230000000000:+10000000000 1BY8GQbn" 2
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-03 --keyspace 4274a230000000000:+10000000000 1BY8GQbn" 3
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-04 --keyspace 4374a230000000000:+10000000000 1BY8GQbn" 4
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-05 --keyspace 4474a230000000000:+10000000000 1BY8GQbn" 5
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-06 --keyspace 4574a230000000000:+10000000000 1BY8GQbn" 6
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-07 --keyspace 4674a230000000000:+10000000000 1BY8GQbn" 7
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-08 --keyspace 4774a230000000000:+10000000000 1BY8GQbn" 8
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-09 --keyspace 4874a230000000000:+10000000000 1BY8GQbn" 9
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-10 --keyspace 4974a230000000000:+10000000000 1BY8GQbn" 10
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-11 --keyspace 4A74a230000000000:+10000000000 1BY8GQbn" 11
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-12 --keyspace 4B74a230000000000:+10000000000 1BY8GQbn" 12
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-13 --keyspace 4C74a230000000000:+10000000000 1BY8GQbn" 13
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-14 --keyspace 4D74a230000000000:+10000000000 1BY8GQbn" 14
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-15 --keyspace 4E74a230000000000:+10000000000 1BY8GQbn" 15
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-16 --keyspace 4F74a230000000000:+10000000000 1BY8GQbn" 16
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-17 --keyspace 5074a230000000000:+10000000000 1BY8GQbn" 17
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-18 --keyspace 5174a230000000000:+10000000000 1BY8GQbn" 18
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-19 --keyspace 5274a230000000000:+10000000000 1BY8GQbn" 19
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-20 --keyspace 5374a230000000000:+10000000000 1BY8GQbn" 20
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-21 --keyspace 5474a230000000000:+10000000000 1BY8GQbn" 21
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-22 --keyspace 5574a230000000000:+10000000000 1BY8GQbn" 22
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-23 --keyspace 5674a230000000000:+10000000000 1BY8GQbn" 23
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-24 --keyspace 5774a230000000000:+10000000000 1BY8GQbn" 24
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-25 --keyspace 5874a230000000000:+10000000000 1BY8GQbn" 25
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-26 --keyspace 5974a230000000000:+10000000000 1BY8GQbn" 26
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-27 --keyspace 5A74a230000000000:+10000000000 1BY8GQbn" 27
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-28 --keyspace 5B74a230000000000:+10000000000 1BY8GQbn" 28
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-29 --keyspace 5C74a230000000000:+10000000000 1BY8GQbn" 29
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-30 --keyspace 5D74a230000000000:+10000000000 1BY8GQbn" 30
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-31 --keyspace 5E74a230000000000:+10000000000 1BY8GQbn" 31
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-32 --keyspace 5F74a230000000000:+10000000000 1BY8GQbn" 32
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-33 --keyspace 6074a230000000000:+10000000000 1BY8GQbn" 33
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-34 --keyspace 6174a230000000000:+10000000000 1BY8GQbn" 34
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-35 --keyspace 6274a230000000000:+10000000000 1BY8GQbn" 35
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-36 --keyspace 6374a230000000000:+10000000000 1BY8GQbn" 36
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-37 --keyspace 6474a230000000000:+10000000000 1BY8GQbn" 37
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-38 --keyspace 6574a230000000000:+10000000000 1BY8GQbn" 38
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-39 --keyspace 6674a230000000000:+10000000000 1BY8GQbn" 39
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-40 --keyspace 6774a230000000000:+10000000000 1BY8GQbn" 40
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-41 --keyspace 6874a230000000000:+10000000000 1BY8GQbn" 41
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-42 --keyspace 6974a230000000000:+10000000000 1BY8GQbn" 42
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-43 --keyspace 6A74a230000000000:+10000000000 1BY8GQbn" 43
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-44 --keyspace 6B74a230000000000:+10000000000 1BY8GQbn" 44
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-45 --keyspace 6C74a230000000000:+10000000000 1BY8GQbn" 45
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-46 --keyspace 6D74a230000000000:+10000000000 1BY8GQbn" 46
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-47 --keyspace 6E74a230000000000:+10000000000 1BY8GQbn" 47
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-48 --keyspace 6F74a230000000000:+10000000000 1BY8GQbn" 48
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-49 --keyspace 7074a230000000000:+10000000000 1BY8GQbn" 49
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-50 --keyspace 7174a230000000000:+10000000000 1BY8GQbn" 50
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-51 --keyspace 7274a230000000000:+10000000000 1BY8GQbn" 51
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-52 --keyspace 7374a230000000000:+10000000000 1BY8GQbn" 52
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-53 --keyspace 7474a230000000000:+10000000000 1BY8GQbn" 53
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-54 --keyspace 7574a230000000000:+10000000000 1BY8GQbn" 54
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-55 --keyspace 7674a230000000000:+10000000000 1BY8GQbn" 55
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-56 --keyspace 7774a230000000000:+10000000000 1BY8GQbn" 56
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-57 --keyspace 7874a230000000000:+10000000000 1BY8GQbn" 57
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-58 --keyspace 7974a230000000000:+10000000000 1BY8GQbn" 58
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-59 --keyspace 7A74a230000000000:+10000000000 1BY8GQbn" 59
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-60 --keyspace 7B74a230000000000:+10000000000 1BY8GQbn" 60
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-61 --keyspace 7C74a230000000000:+10000000000 1BY8GQbn" 61
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-62 --keyspace 7D74a230000000000:+10000000000 1BY8GQbn" 62
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-63 --keyspace 7E74a230000000000:+10000000000 1BY8GQbn" 63
+run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3 -o 1RANSOMWARE.txt --continue run94-64 --keyspace 7F74a230000000000:+10000000000 1BY8GQbn" 64
