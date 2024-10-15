@@ -154,6 +154,9 @@ run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 1run218-RANSOMWA
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 1run218-RANSOMWARE.txt --continue xrun218-121 --keyspace 6553FCC0000000000:+10000000000 1BY8GQbn" 121
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 1run218-RANSOMWARE.txt --continue xrun218-122 --keyspace 65547AB0000000000:+10000000000 1BY8GQbn" 122
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 1run218-RANSOMWARE.txt --continue xrun218-123 --keyspace 6554BF50000000000:+10000000000 1BY8GQbn" 123
+#./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 15saveit.txt --continue 75A5700 --keyspace 75A57000000000000:+500000000000 1BY8GQbn
+./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 16saveit.txt --continue 75C8C50 --keyspace 75C8C500000000000:+400000000000 1BY8GQbn
+
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 1run218-RANSOMWARE.txt --continue xrun218-124 --keyspace 6554DF50000000000:+10000000000 1BY8GQbn" 124
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 1run218-RANSOMWARE.txt --continue xrun218-125 --keyspace 655537D0000000000:+10000000000 1BY8GQbn" 125
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 1run218-RANSOMWARE.txt --continue xrun218-126 --keyspace 655573B0000000000:+10000000000 1BY8GQbn" 126
@@ -454,3 +457,6 @@ run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 1run218-RANSOMWA
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 1run218-RANSOMWARE.txt --continue xrun218-420 --keyspace 71A3CB80000000000:+10000000000 1BY8GQbn" 420
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 1run218-RANSOMWARE.txt --continue xrun218-421 --keyspace 71A3CFD0000000000:+10000000000 1BY8GQbn" 421
 run_command "./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 1run218-RANSOMWARE.txt --continue xrun218-422 --keyspace 71A3DB30000000000:+10000000000 1BY8GQbn" 422
+
+
+#./vanitysearch -t 0 -gpu -gpuId 0,1,2,3,4,5,6,7 -o 15saveit.txt --continue 75A5700 --keyspace 75A57000000000000:+500000000000 1BY8GQbn
